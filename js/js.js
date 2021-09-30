@@ -130,8 +130,8 @@ jQuery(document).ready(function ($) {
         initCallback: mycarousel_initCallback
     });
 	
-	//pictures
-	$("a[rel^='pictures']").pictures();
+	//thepics
+	$("a[rel^='thepics']").thepics();
 	
 	//Image hover
 	$(".hover_img").live('mouseover',function(){
