@@ -1,0 +1,80 @@
+/*
+Theme Name: Piano's mySliders
+Author: Piano Hagens
+Author URI: http://www.pianohagens.com/
+Description: My mySliders
+Place holder source: http://fpoimg.com/1045x576?text=image 1&bg_color=cccccc" style="width:100%"
+Element: mySliders, slideContent
+Version: 2.0
+Year: 2021
+*/
+/* mySliders     	<!--div#mySliders ul.swipe li.mySlider span p img b div.clear div.control prev div.control next--> */
+#mySliders { 
+    border: 2px solid blue;
+    overflow: hidden; 
+    margin: 10px auto;
+}
+#mySliders ul.swipe{ 
+        width: 100%; 
+        height: 300px;     
+        background: #fcfcfc; 
+        text-align: center; 
+        position: relative;
+}
+ul.swipe li.mySlider:nth-child(even) { 
+        background: #7ba250; 
+}
+
+#mySliders li.mySlider span.slideContent {        
+            width: 100%; 
+            height: 300px;     
+            text-align: left;
+            line-height: 20px; 
+            display: inline;
+            top: 80px; 
+            left: 20px; 
+            margin: -80px 0 0 -40%; 
+            font-size: 18px; 
+            color: #000000; 
+            -webkit-user-select: none;
+}
+
+/* Controls */
+div.control {
+    position: absolute; 
+    top: 1600px; 
+    margin-top: -30px; 
+    padding: 8px; 
+    width: 25px; 
+    height: 25px; 
+    z-index: 100; 
+    cursor: pointer; 
+    line-height: 25px; 
+    font-weight: bold; 
+    font-size: 14px;
+    border-radius: 30px; 
+    text-align: center;  
+    -webkit-user-select: none; 
+    background: #5b7f97; 
+    color: #fff; 
+}
+.control.prev { 
+        left: 10px; 
+ 
+}
+	.control.next { 
+        right: 10px; 
+}
+/*	Mobile Layout: <= 800px.
+-----------------------------#mySliders .mySlider-------------------------------*/
+@media only screen and (max-width: 767px) {
+/*
+	#mySliders { border: 1px solid #aaa; }
+		#mySliders .mySlider span { font-size: 16px; height: 80px; margin-top: -40px; }
+	.control { padding: 5px; width: 50px; height: 50px; line-height: 50px; font-size: 11px; }
+	.control.prev { left: -20px; }
+	.control.next { right: -20px; }
+*/
+}
+
+

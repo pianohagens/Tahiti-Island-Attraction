@@ -1,0 +1,141 @@
+/*
+Theme Name: Piano's Jcarousel
+Author: Piano Hagens
+Author URI: http://www.pianohagens.com/
+Description: My Jcarousel
+Place holder source: http://fpoimg.com/1045x576?text=image 1&bg_color=cccccc" style="width:100%"
+Element: jcarousel
+Version: 2.0
+Year: 2021
+*/
+
+#jcarousel {margin-top:17px;
+}
+#mycarousel li p {
+	float:left;
+    line-height: normal;
+    
+}
+#mycarousel li img {
+	float:left;
+	margin:0 15px 10px 0;
+    max-width: 90%;
+}
+
+/*
+.jcarousel-skin-tango .jcarousel-container {
+   
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+    
+}
+*/
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+   
+    width:  100%;
+    padding: auto 0;
+    margin: auto 0;
+}
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+   margin: 15px;
+   padding:15px;
+}
+.jcarousel-skin-tango, .jcarousel-clip-horizontal {
+    margin:0 auto;
+  
+}
+.jcarousel-skin-tango .jcarousel-item {
+    position:relative;
+    width:305px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin: 5px 10px 5px 10px;
+    height: 360px;
+    
+  
+}
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+
+}
+
+.jcarousel-skin-tango .jcarousel-container-vertical {
+
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	
+}
+
+.jcarousel-skin-tango .jcarousel-item-vertical {
+
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    display:none !important;
+}
+
+/* ____________________ Buttons ____________________ */
+
+#jcarousel .jcarousel-prev,
+#jcarousel .jcarousel-next {
+ 	position: absolute;
+	top: 165px;
+	width: 16px;
+	height: 36px;
+	outline:none;
+    cursor:pointer;
+	background-color:transparent;
+
+
+}
+
+#jcarousel .jcarousel-prev {
+overflow: hidden;
+background-image:url(../images/toleft16x36.png);
+	background-position:0 0;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+
+}
+
+#jcarousel .jcarousel-next {
+    overflow: hidden;
+	background-image:url(../images/toright16x36.png);
+	background-position:-16px 0;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+    right: -5px;
+}
+
+#jcarousel .jcarousel-next:hover,
+#jcarousel .jcarousel-prev:hover {
+		opacity:1;
+	filter: alpha(opacity=100);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
