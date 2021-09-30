@@ -39,7 +39,7 @@
             s.stickyElement
               .css('position', '')
 			  .css('height', '')
-			  .css({ 'marginTop': '20px'})
+			  .css({ 'marginTop': ''})
 			  .css({ 'paddingBottom': '0px'})
               .css('top', '');
             s.stickyElement.parent().removeClass(s.className);
