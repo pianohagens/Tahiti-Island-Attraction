@@ -386,6 +386,7 @@ background:url(../images/canvasGreen.png);
 	width:100%;
 	padding:36px 0 39px;
     border-bottom: 3px solid green;
+    z-index: -99;
 }
 
 .educ_block {
@@ -940,7 +941,7 @@ div.entertainmentQuote{
     padding-top: 15px;
 	color:green;
 }
-.copyright a:hover {text-decoration:none;color:#fff;
+.copyright a:hover {text-decoration:none;color:orange;
 }
 
 /* _____________ BACK_TOP ___________ */
@@ -974,7 +975,7 @@ div.entertainmentQuote{
 }
 .det_inf li {
     padding: 5px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid orange;
 }
 .det_inf li img{
     padding-right: 10px;
@@ -983,7 +984,7 @@ div.entertainmentQuote{
     color: #929292;
 }
 .det_inf li a:hover {
-    color: #fff;
+    color: orange;
 }
 li.phone {
 /*    background: url("../images/phone32x32.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);*/
@@ -1023,7 +1024,7 @@ ul.tweets li a:hover {
 }
 
 .contact_det a:hover {
-    color: #ccc;
+    color: orange;
 }
 
 .socials a {
@@ -1091,7 +1092,7 @@ div.me img{
 }
 
 .custom_link a:hover{
- color: #929292;
+ color: orange;
 }
 
 .qualification_text{
@@ -1259,3 +1260,6 @@ border:2px solid #DAA520;
 #error span p {
   color:#c0392b;
 }
+
+
+/*********************************************************************/
