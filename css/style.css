@@ -186,7 +186,7 @@ ul.navigation {
 
 
 h2 {
-	margin:10px 0 13px;
+	margin:40px 0 13px;
 	padding:10px 20px;	
 	text-align:center;
 	font-style:normal;
@@ -197,7 +197,9 @@ h2 {
 	color:#3e3e3e;	
 }
 
-
+h2.hotline{
+    
+}
 
 .slide_descr {
 	margin:0 auto;
@@ -955,7 +957,18 @@ div.entertainmentQuote{
 a img.attractionImg{
     
 }
-
+h4.experienceQuote{
+ color:hotpink;
+text-shadow: 4px 4px #ddd;
+font-family:cursive;
+    font-weight: bold;
+}
+b.experienceQ{
+ color:red;
+text-shadow: 4px 4px #ccc;
+font-family:cursive;
+    font-weight: bold;
+}
 #map_block {
 	margin:0;
 }
@@ -1149,11 +1162,14 @@ div.me img{
   margin-top: 10px;
 }
 
-.qualification_text > p, .qualification_text {
-  font-size: 20px;
-  line-height: 1.45em;
+.serviceContHolder > p, .serviceContHolder {
+  line-height: .8em;
 }
-
+b.businesshours{
+    font-size: 16px;
+    color: green;
+    line-height: .6em;
+}
 .fright {
   float: right;
   font-size: 18px !important;
