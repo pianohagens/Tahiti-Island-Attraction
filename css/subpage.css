@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+Theme Name: Volunteers At Lowell
+Author: Piano Hagens
+Author URI: 
+Description: The owners of Paradigm Pet Professionals are looking for a site that is easy to navigate and makes the content readable and easy to understand. 
+Place holder source: http://fpoimg.com/1045x576?text=image 1&bg_color=BDBDBD" style="width:100%"
+tags: &#128062; 
+Version: 0.07_07/05/2021
+*/
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+	
+	}
+
+/********************** #header1 ***************************/
+
+/********************** nav ******** 
+.nav .current{
+    background-color: #6699cc;
+}*******************/
+/******************* Breadcrumb Pagination ******************************/
+ul.breadcrumb li.breadcrumbCurrent a{
+  color: green;
+}
+
+ul.breadcrumb {
+  margin-left: 20px;
+  padding: 0 6px;
+  list-style: none;
+    
+    
+}
+ul.breadcrumb li.breadcrumbCurrent {
+  display: inline;
+  font-size: 18px;
+  background-color: white;
+}
+ul.breadcrumb li a {
+  color: green;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover, .icon:hover{
+  color: orange;
+  text-decoration: underline;
+}
+.icon{
+    font-size: 20px;
+    color: #676767;
+}
+/*************************************************/
+
+#accord1{
+    margin-top: 60px;
+}
+.accordion {
+  margin-left: 20px;
+  font-family:cursive;
+  text-decoration: underline;
+  color: #6699cc;
+  cursor: pointer;
+  padding: 10px;
+  width: 65%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  color: orange;
+}
+
+.panel{
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+/********** *************/
+/*by Piano Hagens*/
+/******************** -serviceContHolder-serviceCat---serviceImgHolder-- sub-navUL -sub-nav-itemLi-sub-nav-item-con-a-*****************************/
+div.sub-navD {
+    margin-left: 10px;
+    width: 22%;
+    float: left;
+}
+.accordion {
+  text-decoration: underline;
+  color: green;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+    font-weight: bold;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  color: orange;
+}
+
+.panel{
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+/********** *************/
+ul.serviceItem{
+    width: 85%;
+    height: 280px;
+    float: left;
+}
+.serviceCatLi{
+    float: left;
+    padding: 10px;
+    border-right: 1px solid orange;
+
+}
+.serviceImgHolder{
+    width: 260px;
+    height: 80px;
+    float: left;
+}
+.serviceImgHolder img{
+    width: 240px;
+    height: 230px;
+    float: left;
+}
+.serviceContHolder{
+    width: 71%;
+    margin-left: 220px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.serviceContHolder a{
+    padding: 10px;
+    font-size: 16px;
+}
+.serviceContent{
+    background: red;
+    width: 100%;
+    max-width: 1120px;
+}
+	
+img.left-prof {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+img.right-prof{ 
+    float: right;
+}
+div.serviceContent{
+    width: 80%;
+    background: red;
+}
+.serviceContent img, .serviceContent img{
+    width: 200px;
+    margin: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+
+ul.topArticlesUL{
+    padding-left: 50px;
+}
+ul.topArticlesUL a{
+    font-size: 22px;
+    line-height: 2em;
+}
+ul.topArticleUL ol{
+}
+.pageWidgets{ 
+    width: 100%;
+    clear: both;
+    max-width: 1120px;
+    margin: auto;
+}
+.pageWidget{
+    width: 25%;
+    padding: 20px;
+    height: 200px;
+    display: inline-grid;
+}
+.serviceLi{
+    list-style-type:decimal;
+    font-size: 18px;
+    padding-left: 10px;
+    float: left;
+}
+
+/*************************************************/
