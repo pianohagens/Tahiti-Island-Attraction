@@ -367,7 +367,10 @@ background:url(../images/canvasGreen.png);
 	-o-transition: all 0.2s ease-in-out;
 */
 }
-
+#slide1 a.button:hover{
+    
+    color: orange;
+}
 
 
 /* ____________________________________ Slide 2 ____________________________________ */ 
@@ -1015,6 +1018,7 @@ font-family:cursive;
 #back_top a.button:hover {
     font-size: 280%;
     text-decoration:none;
+    color: orange;
 }
 /* ____________ //BACK_TOP __________ */
 
