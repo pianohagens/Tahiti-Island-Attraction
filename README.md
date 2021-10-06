@@ -1,4 +1,4 @@
 # Taniti-Island
 
 URL  
-https://pianohagens.github.io/Taniti-Island/
+https://pianohagens.github.io/Tahiti-Island-Attraction/
