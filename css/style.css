@@ -1024,13 +1024,11 @@ font-family:cursive;
 
 /* ___________________________________ //FOOTER ___________________________________ */
 b.serviceType{
-    color: green;
+    color: firebrick;
     font-size: 22px;
+    text-decoration: underline;
 }
-b.serviceType:hover{
-    color: orange;
-    
-}
+
 a:hover {
     color: orange; !important
 }
@@ -1238,7 +1236,7 @@ div#note{
 
 
     h2, h3, h4{
-        padding: 15px;
+        padding: 10px;
         text-align: center;
     }
 
